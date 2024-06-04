@@ -1,0 +1,58 @@
+@import url("https://fonts.bunny.net/css?family=Nunito");
+.kvv-color-text {
+  color: #111827;
+}
+.kvv-color-text-light {
+  color: #374151;
+}
+.kvv-color-text-light.kvv-hover:hover, .kvv-color-text-light.kvv-hover:focus {
+  color: #111827;
+}
+.kvv-background-accent {
+  color: white;
+  background-color: #485447;
+}
+.kvv-background-accent:disabled {
+  color: #111827;
+  background-color: #777777;
+}
+.kvv-background-accent:hover:not(:disabled) {
+  background-color: #293029;
+}
+.kvv-background-red {
+  color: white;
+  background-color: #AA3939;
+}
+.kvv-background-red:hover {
+  background-color: #804141;
+}
+
+.fc-event-title {
+  margin: 1px;
+  padding: 1px;
+  white-space: normal;
+}
+
+.fc-event-time {
+  margin: 1px;
+  padding: 1px;
+  white-space: normal;
+  font-size: 0.9em;
+  width: 3em;
+}
+
+.color-accent {
+  color: red;
+}
+
+.background-nav {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.background-footer {
+  background-color: #293029;
+  border-top: #485447 solid 3px;
+  color: white;
+}
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,85 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Define your colors using Sass variables
+$color-main: #111827;
+$color-accent: #293029;
+$color-accent-darker: #485447;
+$color-accent-2: #FFFFFF;
+$color-text: #111827;
+$color-text-light: #374151;
+
+.kvv {
+
+    &-color-text {
+        color: $color-text;
+    }
+
+    &-color-text-light {
+        color: $color-text-light;
+
+        &.kvv-hover:hover, &.kvv-hover:focus {
+            color: $color-text;
+        }
+    }
+
+    &-background {
+
+        &-accent {
+            color: white;
+            background-color: $color-accent-darker;
+
+            &:disabled {
+                color: $color-text;
+                background-color: #777777;
+            }
+
+            &:hover:not(:disabled) {
+                background-color: $color-accent;
+            }
+        }
+
+        &-red {
+            color: white;
+            background-color: #AA3939;
+
+            &:hover {
+                background-color: #804141;
+            }
+        }
+
+    }
+
+}
+
+.fc-event-title {
+    margin: 1px;
+    padding: 1px;
+    white-space: normal;
+}
+
+.fc-event-time {
+    margin: 1px;
+    padding: 1px;
+    white-space: normal;
+    font-size: .9em;
+    width: 3em;
+}
+
+.color-accent {
+    //color: $color-accent;
+    color: red;
+}
+
+.background-nav {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.background-footer {
+    background-color: $color-accent;
+    border-top: $color-accent-darker solid 3px;
+    color: white;
+}
